@@ -1,0 +1,46 @@
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fond {
+    background-image: url("assets/img/header.jpg");
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.bords {
+    border-right: solid coral 10px;
+}
+
+#barre {
+    text-align: center;
+}
+
+#cadre {
+    background-color: pink;
+    margin: 50px;
+}
+
+#texte {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.destination {
+    width: 100%;
+}
+.texte {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+@media all and (max-width: 480px) {
+    #responsiveImg {
+        width: 300px;
+    }
+}
